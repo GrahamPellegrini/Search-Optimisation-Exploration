@@ -18,7 +18,7 @@
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This repository explores **heuristic optimisation techniques** through the task of minimising the **Griewangk function**, a common test function in global optimisation with many local minima.
 
@@ -36,7 +36,7 @@ The project aims to investigate:
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```bash
 .
@@ -48,7 +48,7 @@ The project aims to investigate:
 
 ---
 
-## 📊 Objective Function
+## Objective Function
 
 The target function is the **Griewangk Function**:
 
@@ -61,7 +61,7 @@ f(x) = 1 + \frac{1}{4000} \sum_{i=1}^{n} x_i^2 - \prod_{i=1}^{n} \cos\left(\frac
 
 ---
 
-## ⚙️ Tools Used
+## Tools Used
 
 - Python 3.10+
 - NumPy
@@ -70,18 +70,18 @@ f(x) = 1 + \frac{1}{4000} \sum_{i=1}^{n} x_i^2 - \prod_{i=1}^{n} \cos\left(\frac
 
 ---
 
-## 📊 Key Observations
+## Key Observations
 
 - **Gradient Descent** converges rapidly near minima but is sensitive to local minima.
 - **Random Search** provides diverse exploration but suffers from inefficiency.
 - **Simulated Annealing** balances exploration and exploitation, with temperature tuning critical.
 - **Hybrid Approaches** combining random and gradient-based steps showed superior convergence in some runs.
 
-> 📌 Visualisations included demonstrate the strengths and pitfalls of each strategy.
+> Visualisations included demonstrate the strengths and pitfalls of each strategy.
 
 ---
 
-## 📘 Report
+## Report
 
 The full technical report is available as a Jupyter notebook and exported PDF:
 - [`CCE2503_Assignment.ipynb`](./CCE2503_Assignment.ipynb)
@@ -89,7 +89,7 @@ The full technical report is available as a Jupyter notebook and exported PDF:
 
 ---
 
-## 👨‍💼 Author
+## Author
 
 **Graham Pellegrini**  
 B.Sc. (Hons.) Computer Engineering  
